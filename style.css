@@ -1,7 +1,88 @@
 body {
-  background-color: #f0f0f0;
+  margin: 0;
   font-family: Arial, sans-serif;
-}
-h1 {
+  background-color: #f4f4f4;
   color: #333;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/6/69/2014_Mercedes-Benz_E_250_CDI_BlueTEC_Avantgarde_%28W_212%29_sedan_%282015-07-09%29_01.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero button {
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.hero button:hover {
+  background-color: #004d40;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.car {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.car img {
+  max-width: 100%;
+  height: auto;
+}
+
+.car button {
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.car button:hover {
+  background-color: #004d40;
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
 }
