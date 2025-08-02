@@ -1,1 +1,3 @@
-console.log('Hello from script.js!');
+function contactUs() {
+  alert("Спасибо за интерес! Свяжитесь с нами по телефону или email, чтобы узнать цену и детали.");
+}
