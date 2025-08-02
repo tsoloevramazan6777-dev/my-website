@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mercedes-Benz W212 Рестайлинг</title>
+  <meta name="description" content="Продажа Mercedes-Benz W212 рестайлинг. Отличное состояние, лучшие цены, фото и описание.">
+  <meta name="keywords" content="мерседес W212 рестайлинг, купить Mercedes W212, Mercedes E-класс б/у">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello World</h1>
+  <header>
+    <h1>Mercedes-Benz W212 Рестайлинг</h1>
+    <nav>
+      <a href="#catalog">Каталог</a>
+      <a href="#about">О нас</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Лучшие Mercedes W212 в продаже</h2>
+    <p>Проверенные автомобили в отличном состоянии с гарантией.</p>
+    <button onclick="contactUs()">Связаться с нами</button>
+  </section>
+
+  <section id="catalog">
+    <h2>Наши автомобили</h2>
+    <div class="cars">
+      <div class="car">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/2014_Mercedes-Benz_E_250_CDI_BlueTEC_Avantgarde_%28W_212%29_sedan_%282015-07-09%29_01.jpg/640px-2014_Mercedes-Benz_E_250_CDI_BlueTEC_Avantgarde_%28W_212%29_sedan_%282015-07-09%29_01.jpg" alt="Mercedes W212 Черный">
+        <h3>Mercedes W212 Черный</h3>
+        <p>Год выпуска: 2014<br>Пробег: 85,000 км</p>
+        <button onclick="contactUs()">Узнать цену</button>
+      </div>
+      <div class="car">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mercedes-Benz_E_220_BlueTEC_Avantgarde_%28W_212%29_%E2%80%93_Frontansicht%2C_23._Mai_2014%2C_D%C3%BCsseldorf.jpg/640px-Mercedes-Benz_E_220_BlueTEC_Avantgarde_%28W_212%29_%E2%80%93_Frontansicht%2C_23._Mai_2014%2C_D%C3%BCsseldorf.jpg" alt="Mercedes W212 Белый">
+        <h3>Mercedes W212 Белый</h3>
+        <p>Год выпуска: 2015<br>Пробег: 70,000 км</p>
+        <button onclick="contactUs()">Узнать цену</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p>Мы специализируемся на продаже автомобилей Mercedes-Benz W212 рестайлинг. Каждая машина проходит тщательную проверку перед продажей.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Email: info@mercedes-w212.ru<br>Телефон: +7 (900) 123-45-67</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mercedes W212. Все права защищены.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
